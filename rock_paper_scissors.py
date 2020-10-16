@@ -115,6 +115,7 @@ root = tkinter.Tk()
 root.geometry("532x600+550+100")
 root.resizable(0,0)
 root.title("Rock Paper Scissors using Tkinter")
+root.iconbitmap("icon.ico")
 
 #Mainframe
 mainframe = Frame(root,cursor='target',background='#2A363A')
